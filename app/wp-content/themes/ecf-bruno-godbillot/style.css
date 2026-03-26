@@ -21,6 +21,7 @@ html{
 
 body{
     font-size: 1.6rem;
+    margin: 0;
 }
 
 /* HEADER */
@@ -34,8 +35,42 @@ body{
     list-style: none;
 }
 
-.menuDuHeader{
+.menu{
     display: flex;
+}
+
+/* FIN HEADER.PHP */
+
+/* FRONT PAGES */
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.themeFP{
+    background-image: url('/wp-content/uploads/2026/03/homepage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--light);
+    height: 50rem;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1rem;
+    width: 100%;
+}
+
+.myName{
+    background-color: var(--tertiary);
+    padding: 1rem;
+    width: 16rem;
+}
+
+.categorie li{
+    list-style: none;
 }
 
 

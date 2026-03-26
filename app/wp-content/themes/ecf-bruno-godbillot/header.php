@@ -13,12 +13,12 @@
 
 <header class="site-header">
     <p class="logoTitre">Les villes du monde</p>
-
-    <nav class="menuDuHeader">
-        <?php wp_nav_menu([
-            'theme_location' => 'main'
-        ]) ?>
-    </nav>
+    
+        <nav class="menuDuHeader">
+            <?php wp_nav_menu([
+                'theme_location' => 'main'
+            ]) ?>
+        </nav>
 </header>
 
 
