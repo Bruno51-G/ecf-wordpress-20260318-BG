@@ -12,14 +12,16 @@
 <?php wp_body_open(); ?>
 
 <header class="site-header">
-    <p class="logoTitre"><?php bloginfo('name'); ?></p>
+    <p class="logoTitre">Les villes du monde</p>
+
+    <nav class="menuDuHeader">
+        <?php wp_nav_menu([
+            'theme_location' => 'main'
+        ]) ?>
+    </nav>
 </header>
 
-<nav>
-    <?php wp_nav_menu([
-        'theme_location' => 'main'
-    ]) ?>
-</nav>
+
 
 <main>
 

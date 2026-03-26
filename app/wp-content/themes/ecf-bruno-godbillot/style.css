@@ -2,3 +2,69 @@
 Theme Name: ECF
 Author: Bruno GODBILLOT
 */
+
+:root{
+    --light: #FFFFFF;
+    --dark: #000000;
+    --primary: #DDDDDD;
+    --secondary: #1b296a;
+    --tertiary: #ed6840;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+/* HEADER */
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuDuHeader li{
+    list-style: none;
+}
+
+.menuDuHeader{
+    display: flex;
+}
+
+
+/* ARCHIVE.PHP */
+
+.article{
+    position: relative;
+    border: 1px solid var(--dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.themeArchive{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.dateArticle{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: var(--primary);
+    padding: 1rem;
+}
+
+/* FIN ARCHIVE.PHP */

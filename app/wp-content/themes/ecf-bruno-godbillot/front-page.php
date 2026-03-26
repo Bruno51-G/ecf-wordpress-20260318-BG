@@ -25,5 +25,11 @@ get_header();
     ?>
 </div>
 
+<aside>
+    <?php 
+        dynamic_sidebar('main-sidebar');
+    ?>
+</aside>
+
 <?php
 get_footer();
